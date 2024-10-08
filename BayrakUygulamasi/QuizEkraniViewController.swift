@@ -9,13 +9,39 @@ import UIKit
 
 class QuizEkraniViewController: UIViewController {
 
+    @IBOutlet weak var labelDogru: UILabel!
+    
+    @IBOutlet weak var labelYanlis: UILabel!
+    
+    @IBOutlet weak var labelSoruSayisi: UILabel!
+    
+    @IBOutlet weak var imageViewBayrak: UIImageView!
+    
+    @IBOutlet weak var buttonA: UIButton!
+    
+    @IBOutlet weak var buttonB: UIButton!
+    
+    @IBOutlet weak var buttonC: UIButton!
+    
+    @IBOutlet weak var buttonD: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func buttonATikla(_ sender: Any) {
+    }
+    
+    @IBAction func buttonBTikla(_ sender: Any) {
+    }
+    
+    @IBAction func buttonCTikla(_ sender: Any) {
+    }
+    
+    @IBAction func buttonDTikla(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
