@@ -9,13 +9,18 @@ import UIKit
 
 class SonucEkraniViewController: UIViewController {
 
+    @IBOutlet weak var labelSonuc: UILabel!
+    
+    @IBOutlet weak var labelYuzde: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func tekrarDene(_ sender: Any) {
+    }
     /*
     // MARK: - Navigation
 
